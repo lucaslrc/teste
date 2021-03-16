@@ -11,7 +11,6 @@ start:
 	sudo apt-get install -y dotnet-sdk-5.0
 	dotnet --info
 	# Install Docker
-	sudo apt-get remove docker docker-engine docker.io containerd runc
 	sudo apt-get update
 	sudo apt-get install apt-transport-https \ 
 	ca-certificates \
