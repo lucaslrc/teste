@@ -13,6 +13,6 @@ start:
 	# Install Docker
 	wget https://download.docker.com/linux/static/stable/x86_64/docker-20.10.5.tgz
 	tar xzvf docker-20.10.5.tgz
-	suco cp docker/* /usr/bin
+	sudo cp docker/* /usr/bin
 	sudo dockerd &
 	sudo docker run hello-world
